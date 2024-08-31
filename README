@@ -1,0 +1,10 @@
+cryptsetup (utility for setting up encrypted filesystems)
+
+LUKS is a standard for cross-platform hard disk encryption.
+It provides secure management of multiple userpasswords and
+stores setup information in the partition header.
+LUKS for dm-crypt is now implemented in cryptsetup replacing the
+original cryptsetup. It provides all the functionally of the
+original version plus all LUKS features.
+
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
